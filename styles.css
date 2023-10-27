@@ -1,0 +1,155 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  /* justify-content: center; */
+  margin: 0;
+  padding: 0;
+}
+
+#left, #right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+#left {
+  background-image: url('forest.jpg');
+  background-size: cover;
+  left: 0;
+  width: 25%;
+  /* flex: 0 0 25vw; */
+}
+
+
+  #logo-background {
+    margin-top: 150px;
+    height: 150px;
+    position: relative;
+    background-color: lightgray;
+    opacity: 70%;
+    justify-content: center;
+
+  }
+
+  #logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo-img {
+    position: relative;
+    left: 35px;
+    top: 35px;
+    height: 80px;
+    color: blue;
+  }
+
+  #logo-txt {
+    font-family: 'Rye', serif;
+    position: relative;
+    font-size: 50px;
+    top: 40px;
+    left: 50px;
+  }
+
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  right: 0;
+  width: 75%;
+  /* flex: 0 0 75vw; */
+}
+
+.right-div {
+  height: 33.33%;
+  width: 100%;
+}
+
+#right-uno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: snow;
+  
+}
+
+#right-dos {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 10px;
+  z-index: 1;
+}
+
+#right-tres {  
+  background-color: snow;
+}
+
+.forms-with-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.forms-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0 30px 0 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 250px;
+}
+
+button {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  background-color: darkgreen;
+  border-radius: 7px;
+  font-size: 15px;
+  left: 100px;
+  top: 25px;
+  height: 40px;
+  width: 170px;
+}
+
+#btn-msg {
+  position: absolute;
+  bottom: 145px;
+  left: 65px;
+}
+
+
+
+
+
+
